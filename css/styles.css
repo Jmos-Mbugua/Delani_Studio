@@ -125,3 +125,9 @@
     color: green;
 }
 
+#footer {
+    align-items: center;    
+    align-content: center;
+    padding-left: 300px;
+}
+
