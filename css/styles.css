@@ -6,8 +6,8 @@
     height: 100%;
     text-align:center;
     color: white;
-    font-family: 'Lexend Mega', sans-serif;
-    /* font-size: 25px; */
+    font-family: 'Source Serif Pro', serif;
+    
 }
 
 #mouse_click {
@@ -31,4 +31,50 @@
         font-size: 20px;
     }
   }
+
+
+  .container {
+      text-align: center;
+      margin-top: 30px;
+      
+  }
+
+  .container> h3 {
+      font-size: 40px;      
+  }
+
+  .container>p:nth-child(3) {
+      width: 80%;
+      text-align: center;
+      margin-left: 120px;
+      
+  }
+
+  .c_services {
+    background-image: url(/images/backgrounds/s_image.jpg);
+  }
+
+  .services {    
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-position: center;
+    height: 42%;
+    text-align:center;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+.services {
+    margin-top: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+
+#what_header {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
 
