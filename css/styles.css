@@ -54,19 +54,25 @@
     background-image: url(/images/backgrounds/s_image.jpg);
   }
 
-  .services {    
+  #services {    
     background-repeat: no-repeat;    
     background-size: cover;
     background-position: center;
-    height: 42%;
+
+    height: 55%;
     text-align:center;
     color: white;
     font-family: 'Source Serif Pro', serif;
     
 }
 
-.services {
-    margin-top: 20px;
+#services h3 {
+    padding-top: 120px;
+    padding-bottom:30px;
+    font-size: 30px;
+}
+
+#services {    
     width: 70%;
     text-align: center;
 }
@@ -79,6 +85,43 @@
 
 #work {
     margin: 5px;
-    /* margin: auto; */
-    /* padding-right: 10px; */
 }
+
+.contacts {
+    background-image: url(/images/backgrounds/c_image.jpg);
+    height: 480px;
+}
+
+#input {    
+    background: transparent;    
+    margin-top: 20px; 
+    margin-bottom: 20px;   
+    color: white;
+}
+#input:focus {
+    /* background-color:whitesmoke; */
+    border: 1px solid white;
+    /* opacity: 0.7; */
+}
+
+#textarea {
+    padding-top: 5px;
+    width: 100%;
+    background: transparent;
+    height: 150px;
+    align-content: center;
+    color: white;
+}
+
+#contacts > h3 {
+    padding-top: 50px;    
+    color: white;
+    font-family: 'Hepta Slab', serif;
+}
+
+#button {
+    margin-top:30px;
+    margin-left: 550px;
+    color: green;
+}
+
