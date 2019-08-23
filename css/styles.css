@@ -77,4 +77,8 @@
     font-size: 35px;
 }
 
-
+#work {
+    margin: 5px;
+    /* margin: auto; */
+    /* padding-right: 10px; */
+}
