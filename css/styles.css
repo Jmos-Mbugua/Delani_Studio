@@ -1,5 +1,5 @@
 .header {
-    background-image: url(/images/backgrounds/h_img.jpg);
+    background-image: url(images/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,7 +51,7 @@
   }
 
   .c_services {
-    background-image: url(/images/backgrounds/s_image.jpg);
+    background-image: url(images/backgrounds/s_image.jpg);
   }
 
   #services {    
@@ -89,7 +89,7 @@
 }
 
 .contacts {
-    background-image: url(/images/backgrounds/c_image.jpg);
+    background-image: url(images/backgrounds/c_image.jpg);
     height: 480px;
 }
 
