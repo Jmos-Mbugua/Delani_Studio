@@ -167,9 +167,9 @@
     opacity: 0.7;
   }
   
-  .text {
-    background-color: blueviolet;
-    color: white;
+  .text1 {
+    background-color: white;
+    color: black;
     font-size: 16px;
     padding: 16px 32px;
   }
@@ -208,9 +208,92 @@
     opacity: 0.7;
   }
   
-  .text {
-    background-color: blueviolet;
-    color: white;
+  .text2 {
+    background-color: white;
+    color: black;
     font-size: 16px;
     padding: 16px 32px;
   }
+
+  /* hover effect for work3 */
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  #work3 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .work3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #work3:hover {
+    opacity: 0.5;
+  }
+  
+  #work:hover .work3 {
+    opacity: 0.7;
+  }
+  
+  .text3 {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /* hover effect for work 4 */
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  #work4 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .work4 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #work4:hover {
+    opacity: 0.5;
+  }
+  
+  #work:hover .work4 {
+    opacity: 0.7;
+  }
+  
+  .text4 {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
