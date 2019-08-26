@@ -22,11 +22,11 @@
             <img src="images/mouse_click.png" alt="Mouse click" id="mouse_click">
         </div>
     </div>
-    <div class="container">
+    <div class="about">
         <h3>About Us</h3>
         <p>When you work with us, you are part of the team of committed collaborators. All aspects of our software development
             process are intergrated, iterative and agile.</p>
-        <p id="about">Our approach unifies design, development and product management to create exceptional products. We start each
+        <p>Our approach unifies design, development and product management to create exceptional products. We start each
             project by understanding your business goals, the user's needs and the product requirements. Then we help translate
             them into effective and elegant solutions.</p>
     </div>
@@ -134,7 +134,7 @@
     <div class="contacts">
         <div class="container" id="contacts">
             <h3>Contact Us</h3>
-            <form onsubmit = " return validateForm()">
+            <form onsubmit = " return validateForm()" class="form">
                 <div class="row">
                     <div class="col">
                         <input type="text" class="form-control" placeholder="Name" id="name">
@@ -144,10 +144,12 @@
                     </div>
                     <div class="col-sm-12" id="text">
                         <textarea type="text" class="form-control" placeholder="Your message here..." id="textarea"></textarea>
-                    </div>
-                    <div id="button">
+                    </div><br>
+                    <div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
+                    
+                    
                 </div>
             </form>
         </div>

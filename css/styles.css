@@ -21,6 +21,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+        width: 100%;
+        overflow-x: hidden;
+    }
     mouse_click {
      margin-top : 6px;
     }
@@ -30,6 +35,12 @@
     .header {
         font-size: 20px;
     }
+
+    #services h3 {
+        padding-top: 10px;
+        padding-bottom:10px;
+        font-size: 20px;
+    }
     #footer {
         /* align-items: center; */
         padding-left: 10px;
@@ -37,15 +48,17 @@
     }
     .contacts {
         width: 100%;
+        background-size: cover;
     }
     #button {
         margin-top:1px;
         margin-left: 2px;
-        color: green;
+        color: white;
         align-items: center;
     }
-    #about {
-        width: 100%;
+    .about> h3 {
+        font-size: 20px; 
+        padding-top: 1px;     
     }
   }
 
@@ -56,15 +69,15 @@
       
   }
 
-  .container> h3 {
-      font-size: 40px;      
+  .about> h3 {
+      font-size: 20px;       
   }
+  
 
-  .container>p:nth-child(3) {
-      width: 80%;
+  .about {
       text-align: center;
-      margin-left: 120px;
-      
+      height: 200px;
+      padding-top: 50px;
   }
 
   .c_services {
@@ -75,7 +88,6 @@
     background-repeat: no-repeat;    
     background-size: cover;
     background-position: center;
-
     height: 55%;
     text-align:center;
     color: white;
@@ -84,7 +96,7 @@
 }
 
 #services h3 {
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom:30px;
     font-size: 30px;
 }
@@ -108,6 +120,14 @@
 .contacts {
     background-image: url(../images/backgrounds/c_image.jpg);
     height: 480px;
+    text-align: center;
+    background-size: cover;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 #name {    
@@ -143,9 +163,8 @@
     font-family: 'Hepta Slab', serif;
 }
 
-#button {
-    margin-top:30px;
-    margin-left: 550px;
+button {
+    margin-top:30px;    
     color: green;
 }
 
@@ -158,7 +177,7 @@
 
 
 /* Hover effect for work 1 */
-/* .container {
+.container {
     position: relative;
     width: 100%;
   }
@@ -196,7 +215,7 @@
     color: black;
     font-size: 16px;
     padding: 16px 32px;
-  } */
+  }
 
   /* hover effect for work2 */
   .container {
