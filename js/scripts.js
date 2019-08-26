@@ -40,7 +40,63 @@ $(document).ready(function(){
        $("#text1").show("slow");
    })
    .mouseleave(function () {
+       $("#text1").hide("slow");
+   });
+
+   $("#work2")
+   .mouseenter(function () {
+       $("#text2").show("slow");
+   })
+   .mouseleave(function () {
        $("#text2").hide("slow");
+   });
+
+   $("#work3")
+   .mouseenter(function () {
+       $("#text3").show("slow");
+   })
+   .mouseleave(function () {
+       $("#text3").hide("slow");
+   });
+
+   $("#work4")
+   .mouseenter(function () {
+       $("#text4").show("slow");
+   })
+   .mouseleave(function () {
+       $("#text4").hide("slow");
+   });
+
+   $("#work5")
+   .mouseenter(function () {
+       $("#text5").show("slow");
+   })
+   .mouseleave(function () {
+       $("#text5").hide("slow");
+   });
+
+   $("#work6")
+   .mouseenter(function () {
+       $("#text6").show("slow");
+   })
+   .mouseleave(function () {
+       $("#text6").hide("slow");
+   });
+
+   $("#work7")
+   .mouseenter(function () {
+       $("#text7").show("slow");
+   })
+   .mouseleave(function () {
+       $("#text7").hide("slow");
+   });
+
+   $("#work8")
+   .mouseenter(function () {
+       $("#text8").show("slow");
+   })
+   .mouseleave(function () {
+       $("#text8").hide("slow");
    });
 
 

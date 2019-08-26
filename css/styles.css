@@ -20,6 +20,22 @@
     padding-bottom: 20px;
 }
 
+#text1, #text2, #text3, #text4, #text5, #text6, #text7, #text8 {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.2);
+  top: 0.1px;
+  bottom:5px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  
+
+
+}
+
 @media only screen and (max-width: 600px) {
     body {
         background-size: cover;
@@ -112,8 +128,8 @@
     font-size: 35px;
 }
 
-#work {
-    margin: 6px;
+.card {
+    margin: 6px;  
     margin-bottom:20px;    
 }
 
@@ -176,8 +192,20 @@ button {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Hover effect for work 1 */
-.container {
+/* .container {
     position: relative;
     width: 100%;
   }
@@ -215,10 +243,10 @@ button {
     color: black;
     font-size: 16px;
     padding: 16px 32px;
-  }
+  } */
 
   /* hover effect for work2 */
-  .container {
+  /*.container {
     position: relative;
     width: 100%;
   }
@@ -259,7 +287,7 @@ button {
   }
 
   /* hover effect for work3 */
-  .container {
+  /* .container {
     position: relative;
     width: 100%;
   }
@@ -297,9 +325,9 @@ button {
     color: black;
     font-size: 16px;
     padding: 16px 32px;
-  }
+  } */
   /* hover effect for work 4 */
-  .container {
+  /* .container {
     position: relative;
     width: 100%;
   }
@@ -337,10 +365,10 @@ button {
     color: black;
     font-size: 16px;
     padding: 16px 32px;
-  }
+  } */
 
   /* hover effect for work 5 */
-  .container {
+  /* .container {
     position: relative;
     width: 100%;
   }
@@ -378,10 +406,10 @@ button {
     color: black;
     font-size: 16px;
     padding: 16px 32px;
-  }
+  } */
 
   /* hover effect for work 6 */
-  .container {
+  /* .container {
     position: relative;
     width: 100%;
   }
@@ -419,10 +447,10 @@ button {
     color: black;
     font-size: 16px;
     padding: 16px 32px;
-  }
+  } */
 
   /* hover effect for work 7 */
-  .container {
+  /* .container {
     position: relative;
     width: 100%;
   }
@@ -460,10 +488,10 @@ button {
     color: black;
     font-size: 16px;
     padding: 16px 32px;
-  }
+  } */
 
   /* hover effect for work 8 */
-  .container {
+  /* .container {
     position: relative;
     width: 100%;
   }
@@ -501,7 +529,7 @@ button {
     color: black;
     font-size: 16px;
     padding: 16px 32px;
-  }
+  } */
 
 
 
