@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -24,7 +26,7 @@
         <h3>About Us</h3>
         <p>When you work with us, you are part of the team of committed collaborators. All aspects of our software development
             process are intergrated, iterative and agile.</p>
-        <p>Our approach unifies design, development and product management to create exceptional products. We start each
+        <p id="about">Our approach unifies design, development and product management to create exceptional products. We start each
             project by understanding your business goals, the user's needs and the product requirements. Then we help translate
             them into effective and elegant solutions.</p>
     </div>
@@ -105,7 +107,7 @@
                 <div class="card" style="width: 17rem;" id="work">
                     <img class="card-img-top" src="images/portfolio/work5.jpg" alt="Card image cap" id="Work5">
                     <div class="work5">
-                        <p class="text5">work 5</p>
+                        <p class="text5">work 5</p>                        
                     </div>
                 </div>
                 <div class="card" style="width: 17rem;" id="work">
@@ -132,13 +134,13 @@
     <div class="contacts">
         <div class="container" id="contacts">
             <h3>Contact Us</h3>
-            <form>
+            <form onsubmit = " return validateForm()">
                 <div class="row">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Name" id="input">
+                        <input type="text" class="form-control" placeholder="Name" id="name">
                     </div>
                     <div class="col">
-                        <input type="email" class="form-control" placeholder="@gmail.com" id="input">
+                        <input type="email" class="form-control" placeholder="@gmail.com" id="email">
                     </div>
                     <div class="col-sm-12" id="text">
                         <textarea type="text" class="form-control" placeholder="Your message here..." id="textarea"></textarea>
@@ -167,10 +169,7 @@
     <div class="container">
         <h3>Delani Studio</h3>
         <p>2019</p>
-    </div>
-
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
+    </div>    
 </body>
 
 </html>
