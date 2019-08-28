@@ -20,20 +20,21 @@ function validateForm() {
 
 
 $(document).ready(function(){
-    $("#design").click(function () {
-        $("#design_text").toggle(1000);
-        $("this").animate({
-            height: '+=250px',
-            width: '+=250px'
-        });
+    $("#delani_design").click(function () {
+        $("#design").toggle(100);
+        $("#design_text").toggle(100);        
     });
     
-    $("#development").click(function () {
-        $("#development_text").toggle(1000);
+    $("#delani_development").click(function () {
+        $("#development").toggle(100);
+        $("#development_text").toggle(100);
     });
-    $("#product").click(function () {
-        $("#product_text").toggle(1000);
+    
+    $("#delani_product").click(function () {
+        $("#product").toggle(100);
+        $("#product_text").toggle(100);
     });
+    
 
     $("#work1")
    .mouseenter(function () {

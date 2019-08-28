@@ -36,6 +36,10 @@
 
 }
 
+#design_text, #development_text, #product_text {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         background-size: cover;
